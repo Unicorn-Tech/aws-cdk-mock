@@ -1,6 +1,7 @@
 {
   "name": "aws-cdk-mock",
   "version": "0.1.0",
+  "description": "Mock AWS CDK service layer used by aws-cdk-project to mirror live handler behavior and API contracts.",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
