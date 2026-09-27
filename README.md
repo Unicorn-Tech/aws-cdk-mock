@@ -1,8 +1,13 @@
-# Welcome to your CDK TypeScript project
+# AWS CDK Mock
 
-This is a blank project for CDK development with TypeScript.
+This project provides the mock AWS CDK implementation used by aws-cdk-project.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+It mirrors the communication API so the project can test the same handler flow against a local mock service. Examples include:
+
+- `check-mock-handler` for the `check-handler` flow
+- `initiate-mock-handler` for the `initiate-handler` flow
+- `status-mock-handler` for the `status-handler` flow
+- `submission-mock-handler` for the `submission-handler` flow
 
 ## Useful commands
 
@@ -12,3 +17,4 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 * `npx cdk deploy`  deploy this stack to your default AWS account/region
 * `npx cdk diff`    compare deployed stack with current state
 * `npx cdk synth`   emits the synthesized CloudFormation template
+# aws-cdk-mock
